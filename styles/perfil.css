@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
+
+:root {
+    --cor-de-fundo: #eefcfa;
+    --verde: #005a3c;
+    --branco: #1f3124;
+    --botao-ativo: #57a08a;
+    --botao-inativo: #a3dfdb;
+    --texto-fundo: rgb(204, 238, 222);
+    --texto: #333;
+    /* Melhor contraste para leitura */
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'Montserrat', sans-serif;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--texto);
+}
+
+header {
+    position: relative;
+    height: 6em;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: 50%;
+}
+
+form {
+    margin: 60px 60px;
+    align-items: center;
+}
+
+form label,
+form legend {
+    display: flex;
+    font-size: 20px;
+    margin: 10px 50px 10px;
+}
+
+.input-padrao {
+    display: flex;
+    margin: 10px 20px 10px;
+    padding: 10px 50px;
+    width: 30%;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-color: #a3dfdb;
+    color-scheme: #bcd4c7;
+}
+
+.checkbox {
+    margin: 50px;
+}
+
+.contato {
+    color-scheme: green;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 15px;
+    background: #3d684a;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin: 10px 20px 10px;
+}
+
+.enviar:hover {
+    background: #3d684ab6;
+    transform: scale(1.2);
+}
